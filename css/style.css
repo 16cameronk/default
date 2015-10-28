@@ -38,19 +38,19 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #818181;
+    color: white;
     line-height: 22px;
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    background-color: #ffffff;
+    background-color: #000;
 }
 body.blog {
     overflow-y: scroll;
     overflow-x: auto;   
 }
 a {
-    color: #818181;
+    color: white;
     text-decoration: none;
     transition-duration: .2s;
     -moz-transition-duration: .2s;
@@ -124,7 +124,7 @@ input[type="text"], textarea {
 input[type="submit"] {
     border: 2px solid #7dba5c;
     background-color: transparent;
-    color: #818181;
+    color: white;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -166,7 +166,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 h1, h2, h3, h4, h5 {
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
-    color: #818181;
+    color: white;
     text-transform: uppercase;
 }
 .blog h1, .blog h2, .blog h3, .blog h4, .blog h5{
@@ -224,7 +224,7 @@ h5 {
     border: 2px solid #7dba5c;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    color: #818181;
+    color: white;
     font-size: 16px;
     text-transform: uppercase;
     margin: 20px 0;
@@ -405,7 +405,7 @@ h5 {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    color: #818181;
+    color: white;
     text-transform: uppercase;
     transition-duration: .2s;
     -moz-transition-duration: .2s;
@@ -450,7 +450,7 @@ h5 {
     color: #5a7eca
 }
 .social .twitter {
-    color: #03acf1;
+    color: #9d7457;
     margin: 0 26px 0 30px
 }
 .social .google-plus {
@@ -610,7 +610,7 @@ a.totop-link {
    ========================================================================== */
 
 .about {
-    background-image: url(images/back.jpg)100% 0 scroll #000;
+    background: /*url("../images/bg.JPG") */ 100% 0 scroll #000;
     background-size: contain;
 }
 .about .inner {
@@ -881,10 +881,10 @@ a.totop-link {
     -o-transition-duration: .2s;
 }
 .contact-text:hover i {
-    color: #818181;
+    color: #efabe2;
 }
 .contact-social i {
-    color: #797979;
+    color: #7dba5c;
 }
 .contact-social a i {
     font-size: 25px;
@@ -900,7 +900,7 @@ a.totop-link {
     -o-transition-duration: .2s;
 }
 .contact-social i:hover {
-    color: #818181;
+    color: #efabe2;
 }
 .contact-form {
 }
@@ -911,33 +911,33 @@ a.totop-link {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background:  no-repeat right top;
+    background: url("../images/ogback.JPG") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 90% 100%;
     cursor: pointer;
 }
 .introduction-end-con {
-    float: right;
-    margin: 30% 0 0;
-    width: 30%;
+    float: bottom right ;
+    margin: 50%;
+    width: 29%;
 }
 .introduction-end-con h3 {
     font-size: 55px;
-    color: #818181;
+    color: white;
     line-height: 100px;
 }
 .introduction-end-con h3 strong {
     border-top: 1px solid #333333;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #888;
     padding: 10px 0;
     color: #7dba5c;
     font-weight: normal;
 }
 .introduction-end-con .rotate {
     font-weight: 300;
-    color: #818181;
+    color: white;
     font-size: 55px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -1024,7 +1024,7 @@ iframe, embed, object {
     line-height: 25px
 }
 .blog-list-details h3 a {
-    color: #818181;
+    color: white;
 }
 .date {
     color: #787878;
@@ -1292,7 +1292,7 @@ iframe, embed, object {
    ========================================================================== */
 
 @media only screen and (max-device-width:768px)   {
-    .introduction img {
+    .introduction img { url("../images/back.jpg")
         height:auto;
         width:auto;
     }
